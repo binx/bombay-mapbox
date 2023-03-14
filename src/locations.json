@@ -109,7 +109,7 @@
     "Openness": "Public",
     "Artist(s)": "",
     "Artist Website": "",
-    "LatLng": ""
+    "LatLng": "33.348373,-115.729275"
   },
   {
     "Name": "The Opera House",
@@ -221,7 +221,7 @@
     "Openness": "Public",
     "Artist(s)": "Shig",
     "Artist Website": "",
-    "LatLng": "33.3454575,-115.7286126"
+    "LatLng": "33.3453987, -115.7264068"
   },
   {
     "Name": "Tesseract",
@@ -357,7 +357,7 @@
     "Openness": "Public",
     "Artist(s)": "Shig",
     "Artist Website": "",
-    "LatLng": "33.3474497,-115.7315637"
+    "LatLng": "33.3475925, -115.7294454"
   },
   {
     "Name": "Bombay Beach Boat",
@@ -373,7 +373,7 @@
     "Openness": "Public",
     "Artist(s)": "",
     "Artist Website": "",
-    "LatLng": "33.346905,-115.7317051"
+    "LatLng": "33.3471103, -115.7294910"
   },
   {
     "Name": "Free Love Phone Booth",
@@ -381,7 +381,7 @@
     "Openness": "Public",
     "Artist(s)": "",
     "Artist Website": "",
-    "LatLng": "33.3465428,-115.7320964"
+    "LatLng": "33.3465515, -115.7298715"
   },
   {
     "Name": "The Swing",
@@ -389,7 +389,7 @@
     "Openness": "Public",
     "Artist(s)": "Damon & Ssippi",
     "Artist Website": "",
-    "LatLng": "33.3452368,-115.7328789"
+    "LatLng": "33.3450940, -115.7305223"
   },
   {
     "Name": "HYBYCOZO sculpture",
@@ -397,7 +397,7 @@
     "Openness": "Public",
     "Artist(s)": "HYBYCOZO",
     "Artist Website": "https://www.hybycozo.com/",
-    "LatLng": "33.3464456,-115.7335512"
+    "LatLng": "33.3464580, -115.7312689"
   },
   {
     "Name": "In Car Nation",
@@ -405,7 +405,7 @@
     "Openness": "Public",
     "Artist(s)": "Sean Guerrero",
     "Artist Website": "https://www.chromesean.com/",
-    "LatLng": "33.3470694,-115.7340279"
+    "LatLng": "33.3470797, -115.7317249"
   },
   {
     "Name": "Abandoned Water Park",
@@ -429,7 +429,7 @@
     "Openness": "Public",
     "Artist(s)": "",
     "Artist Website": "",
-    "LatLng": "33.3477463,-115.7277968"
+    "LatLng": "33.3478440, -115.7256179"
   },
   {
     "Name": "H♥️me",
@@ -525,7 +525,7 @@
     "Openness": "Public",
     "Artist(s)": "Shig",
     "Artist Website": "",
-    "LatLng": "33.345297,-115.7290058"
+    "LatLng": "33.3453334, -115.7268305"
   },
   {
     "Name": "Floating Rock",
@@ -581,7 +581,7 @@
     "Openness": "Public",
     "Artist(s)": "",
     "Artist Website": "",
-    "LatLng": "33.3481068,-115.7277217"
+    "LatLng": "33.3484501, -115.7254687"
   },
   {
     "Name": "Blauhaus",
@@ -613,6 +613,38 @@
     "Openness": "Public",
     "Artist(s)": "Damon & Shig",
     "Artist Website": "",
-    "LatLng": ""
+    "LatLng": "33.3456891, -115.7310363"
+  },
+  {
+    "Name": "Audio Install",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "LatLng": "33.3453847, -115.7265784"
+  },
+  {
+    "Name": "Pyramid",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "Anderson & Daniela",
+    "Artist Website": "",
+    "LatLng": "33.3452346, -115.7284811"
+  },
+  {
+    "Name": "The Only Other",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "Midabi",
+    "Artist Website": "",
+    "LatLng": "33.3456459, -115.7299041"
+  },
+  {
+    "Name": "Sea Gate Wind Chimes",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "LatLng": "33.3475374, -115.7297190"
   }
 ]
