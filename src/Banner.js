@@ -21,10 +21,10 @@ function Banner() {
       <img
         src={fishImg}
         alt="fish skeleton"
-        style={{ transform: "scaleX(-1)", marginRight: "20px" }}
+        style={{ transform: "scaleX(-1)", marginRight: "18px" }}
       />
       bombay beach
-      <img src={fishImg} alt="fish skeleton" style={{  marginLeft: "8px" }} />
+      <img src={fishImg} alt="fish skeleton" style={{  marginLeft: "14px" }} />
     </BannerWrapper>
   );
 }

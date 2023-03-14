@@ -30,8 +30,8 @@ function App() {
   const [locations, setLocations] = useState([]);
   const [viewState, setViewState] = useState({
     longitude: -115.729625,
-    latitude: 33.350508,
-    zoom: 15.45,
+    latitude: 33.35,
+    zoom: 15.3,
   });
 
   useEffect(() => {
