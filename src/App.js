@@ -8,11 +8,11 @@ import List from "./List";
 import locationsJSON from "./locations.json";
 
 const markerColors = {
-  "Local Business": "#DDA390",
+  "Local Business": "#C98A76",
   "Community Hub": "#FFD2B7",
   Museum: "#A17A7B",
-  Gallery: "#C98A76",
-  Studio: "#B8A5BF",
+  Gallery: "#B8A5BF",
+  Studio: "#DDA390",
   Venue: "#48564D",
   "Art Installation": "#9AA367",
 };
@@ -35,15 +35,7 @@ function App() {
   });
 
   useEffect(() => {
-    const newLocations = locationsJSON.map((l) => {
-      const latLng = l["LatLng"].split(",");
-      if (latLng) {
-        l.latitude = latLng[0];
-        l.longitude = latLng[1];
-      }
-      return l;
-    });
-    setLocations(newLocations);
+    setLocations(locationsJSON);
   }, []);
 
   return (
@@ -65,7 +57,6 @@ function App() {
           locations={locations}
           selectedMarker={selectedMarker}
           setSelectedMarker={setSelectedMarker}
-          viewState={viewState}
           setViewState={setViewState}
         />
       </ContentWrapper>

@@ -18,8 +18,6 @@ function MapWrapper({
     height: "100%",
   });
 
-  console.log(process.env)
-
   const onMove = useCallback(
     ({ viewState }) => {
       const newCenter = [viewState.longitude, viewState.latitude];
@@ -52,20 +50,19 @@ function MapWrapper({
 
   const markers = useMemo(
     () =>
-      locations.map((l, i) => {
-        if (!l.latitude) return null;
+      [...locations].map((l, i) => {
         return (
           <Marker
             key={`marker${i}`}
-            longitude={l.longitude}
-            latitude={l.latitude}
+            longitude={l.Long}
+            latitude={l.Lat}
             anchor="bottom"
             color={markerColors[l["Category"]]}
             scale={0.7}
             onClick={() => setSelectedMarker(l)}
           ></Marker>
         );
-      }),
+      }).reverse(),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [locations]
   );
@@ -84,10 +81,10 @@ function MapWrapper({
     >
       <NavigationControl showCompass={false} />
       {markers}
-      {selectedMarker && selectedMarker.latitude && (
+      {selectedMarker && (
         <Popup
-          longitude={selectedMarker.longitude}
-          latitude={selectedMarker.latitude}
+          longitude={selectedMarker.Long}
+          latitude={selectedMarker.Lat}
           offset={30}
           anchor="bottom"
           closeOnClick={false}

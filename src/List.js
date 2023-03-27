@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import styled from "styled-components";
 
 const ListWrapper = styled.div`
@@ -8,14 +9,29 @@ const ListWrapper = styled.div`
     overflow-y: visible;
   }
 `;
+const Group = styled.div`
+  &:not(:first-child) {
+    margin: 10px 0;
+  }
+`;
+const Title = styled.div`
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+`;
 const ListItem = styled.div`
   display: flex;
   cursor: pointer;
+  color: #555;
   &:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.05);
   }
   background-color: ${(props) =>
-    props.selectedMaker ? "rgba(0,0,0,.2) !important" : "inherit"};
+    props.selectedMaker ? "rgba(0,0,0,.1) !important" : "inherit"};
 `;
 const Dot = styled.div`
   display: inline-block;
@@ -32,46 +48,72 @@ function List({
   locations,
   selectedMarker,
   setSelectedMarker,
-  viewState,
   setViewState,
 }) {
+  const [listGroups, setListGroups] = useState([]);
+
+  useEffect(() => {
+    const order = [
+      "Local Business",
+      "Community Hub",
+      "Gallery",
+      "Venue",
+      "Art Installation",
+    ];
+    const groupBy = (key, array) =>
+      array.reduce(
+        (objectsByKeyValue, obj) => ({
+          ...objectsByKeyValue,
+          [obj[key]]: (objectsByKeyValue[obj[key]] || []).concat(obj),
+        }),
+        {}
+      );
+
+    const grouped = groupBy("Category", locations);
+    setListGroups(order.map((o) => ({ key: o, values: grouped[o] || [] })));
+  }, [locations]);
+
   return (
     <ListWrapper>
-      {locations.map((l, i) => {
+      {listGroups.map((group, i) => {
         return (
-          <div key={`list${i}`}>
-            <ListItem
-              onClick={() => {
-                const isCurrentSelection =
-                  selectedMarker && selectedMarker["Name"] === l["Name"];
-                if (isCurrentSelection) setSelectedMarker(null);
-                else {
-                  setSelectedMarker(l);
-                  if (!l.latitude) return;
-                  setViewState({
-                    longitude: l.longitude,
-                    latitude: l.latitude,
-                    zoom: 17,
-                  });
-                }
-              }}
-              selectedMaker={
-                selectedMarker && selectedMarker["Name"] === l["Name"]
-              }
-            >
-              <Dot style={{ background: markerColors[l["Category"]] }} />
-              {l["Name"]}
-            </ListItem>
-            {selectedMarker && selectedMarker["Name"] === l["Name"] && (
-              <div style={{ padding: "12px" }}>
-                <div>
-                  <i>{l["Category"]}</i>
-                </div>
-                <div>{l["Artist(s)"]}</div>
-                <div style={{ color: "#888" }}>{l["Openness"]}</div>
+          <Group key={`group${i}`}>
+            <Title>{group.key}</Title>
+            {group.values.map((l, j) => (
+              <div key={`list${j}`}>
+                <ListItem
+                  onClick={() => {
+                    const isCurrentSelection =
+                      selectedMarker && selectedMarker["Name"] === l["Name"];
+                    if (isCurrentSelection) setSelectedMarker(null);
+                    else {
+                      setSelectedMarker(l);
+                      setViewState({
+                        longitude: l.Long,
+                        latitude: l.Lat,
+                        zoom: 17,
+                      });
+                    }
+                  }}
+                  selectedMaker={
+                    selectedMarker && selectedMarker["Name"] === l["Name"]
+                  }
+                >
+                  <Dot style={{ background: markerColors[l["Category"]] }} />
+                  {l["Name"]}
+                </ListItem>
+                {/* {selectedMarker && selectedMarker["Name"] === l["Name"] && (
+                  <div style={{ padding: "12px" }}>
+                    <div>
+                      <i>{l["Category"]}</i>
+                    </div>
+                    <div>{l["Artist(s)"]}</div>
+                    <div style={{ color: "#888" }}>{l["Openness"]}</div>
+                  </div>
+                )} */}
               </div>
-            )}
-          </div>
+            ))}
+          </Group>
         );
       })}
     </ListWrapper>
