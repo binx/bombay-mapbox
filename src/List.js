@@ -93,6 +93,11 @@ function List({
                         latitude: l.Lat,
                         zoom: 17,
                       });
+                      window.scrollTo({
+                        top: 0,
+                        left: 0,
+                        behavior: "smooth",
+                      });
                     }
                   }}
                   selectedMaker={

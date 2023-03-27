@@ -1,5 +1,14 @@
 [
   {
+    "Name": "The Ski Inn",
+    "Category": "Local Business",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.3535831,
+    "Long": -115.7335035
+  },
+  {
     "Name": "American Legion",
     "Category": "Local Business",
     "Openness": "Public",
@@ -16,15 +25,6 @@
     "Artist Website": "",
     "Lat": 33.3526499,
     "Long": -115.7337213
-  },
-  {
-    "Name": "The Ski Inn",
-    "Category": "Local Business",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.3535831,
-    "Long": -115.7335035
   },
   {
     "Name": "The Bombay Beach Institute of Particle Physics, Metaphysics & International Relations",
@@ -468,7 +468,7 @@
     "Long": -115.7312689
   },
   {
-    "Name": "In Car Nation",
+    "Name": "Re In Car Nation",
     "Category": "Art Installation",
     "Openness": "Public",
     "Artist(s)": "Sean Guerrero",
@@ -490,7 +490,7 @@
     "Category": "Art Installation",
     "Openness": "Public",
     "Artist(s)": "Kathy Suder",
-    "Artist Website": "kathysuder.com www.toxikonapothecary.com",
+    "Artist Website": "https://www.toxikonapothecary.com/",
     "Lat": 33.3496555,
     "Long": -115.7308294
   },
@@ -499,7 +499,7 @@
     "Category": "Art Installation",
     "Openness": "Public",
     "Artist(s)": "",
-    "Artist Website": "",
+    "Artist Website": "t",
     "Lat": 33.347844,
     "Long": -115.7256179
   },
@@ -634,7 +634,7 @@
     "Category": "Art Installation",
     "Openness": "Public",
     "Artist(s)": "RJ",
-    "Artist Website": "",
+    "Artist Website": "https://www.batmanswedding.com/",
     "Lat": 33.3493065,
     "Long": -115.7258868
   },
@@ -715,7 +715,7 @@
     "Category": "Art Installation",
     "Openness": "Private unless invited, Public 12-3",
     "Artist(s)": "Sydney Gravelle",
-    "Artist Website": "www.sydsexhibit.com",
+    "Artist Website": "https://www.sydsexhibit.com/",
     "Lat": 33.34914,
     "Long": -115.72597
   },
