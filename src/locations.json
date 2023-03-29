@@ -9,15 +9,6 @@
     "Long": -115.7335035
   },
   {
-    "Name": "American Legion",
-    "Category": "Local Business",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.3547378,
-    "Long": -115.725771
-  },
-  {
     "Name": "Bombay Market",
     "Category": "Local Business",
     "Openness": "Public",
@@ -34,6 +25,15 @@
     "Artist Website": "",
     "Lat": 33.3491567,
     "Long": -115.7266481
+  },
+  {
+    "Name": "Zig Zag Plaza",
+    "Category": "Community Hub",
+    "Openness": "Private, unless invited",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34906278,
+    "Long": -115.726117
   },
   {
     "Name": "The Cult of Reality's Grhastha Matha",
@@ -54,67 +54,58 @@
     "Long": -115.7305994
   },
   {
-    "Name": "Museum of Unwanted Architecture",
-    "Category": "Gallery",
-    "Openness": "Private, unless invited",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.34965,
-    "Long": -115.726501
-  },
-  {
-    "Name": "The Poetry House",
-    "Category": "Gallery",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.349535,
-    "Long": -115.726539
-  },
-  {
-    "Name": "Polaroid Museum",
-    "Category": "Gallery",
-    "Openness": "Private",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.3526685,
-    "Long": -115.7280852
-  },
-  {
-    "Name": "Foundation Foundation",
-    "Category": "Gallery",
-    "Openness": "Private",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.3500821,
-    "Long": -115.7294487
-  },
-  {
-    "Name": "Machine Inspired Art",
-    "Category": "Gallery",
-    "Openness": "Private",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": "",
-    "Long": ""
-  },
-  {
-    "Name": "Temple to the Scientific Method",
-    "Category": "Gallery",
-    "Openness": "Private",
-    "Artist(s)": "Dadaonysous",
-    "Artist Website": "",
-    "Lat": 33.3526685,
-    "Long": -115.7280852
-  },
-  {
     "Name": "The Sub Club",
     "Category": "Venue",
     "Openness": "Public",
     "Artist(s)": "",
     "Artist Website": "",
-    "Lat": 33.348373,
-    "Long": -115.729275
+    "Lat": 33.34825936,
+    "Long": -115.7293901
+  },
+  {
+    "Name": "Club 86",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34736236,
+    "Long": -115.7294533
+  },
+  {
+    "Name": "Cafe Bosna",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "Adisa Ziric, Dmytro Bershadskyy, Tah Rei",
+    "Artist Website": "https://cafebosna.cargo.site/",
+    "Lat": 33.3493192,
+    "Long": -115.7281869
+  },
+  {
+    "Name": "Department of Redundancy Dept. (The Dord)",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.3489844,
+    "Long": -115.7279718
+  },
+  {
+    "Name": "BBBBistro",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34911149,
+    "Long": -115.7336359
+  },
+  {
+    "Name": "The Bombay Beach Drive-In",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "Stefan Ashkenazy",
+    "Artist Website": "",
+    "Lat": 33.3517231,
+    "Long": -115.7297369
   },
   {
     "Name": "The Opera House",
@@ -124,6 +115,69 @@
     "Artist Website": "",
     "Lat": 33.349746,
     "Long": -115.7298048
+  },
+  {
+    "Name": "American Legion",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.3547378,
+    "Long": -115.725771
+  },
+  {
+    "Name": "Bombay Beach Cinematheque",
+    "Category": "Venue",
+    "Openness": "Private",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.349178,
+    "Long": -115.725734
+  },
+  {
+    "Name": "Kamar-Taj",
+    "Category": "Venue",
+    "Openness": "Private",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.35355222,
+    "Long": -115.7287069
+  },
+  {
+    "Name": "Bombay Soleil",
+    "Category": "Venue",
+    "Openness": "Private, with public photo classes and tours",
+    "Artist(s)": "Sandi Wheaton",
+    "Artist Website": "",
+    "Lat": 33.3537679,
+    "Long": -115.7276783
+  },
+  {
+    "Name": "Blauhaus",
+    "Category": "Venue",
+    "Openness": "Private",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.35316124,
+    "Long": -115.7311178
+  },
+  {
+    "Name": "Saturn",
+    "Category": "Venue",
+    "Openness": "Private",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.35320877,
+    "Long": -115.7313477
+  },
+  {
+    "Name": "Drakkar Noir",
+    "Category": "Venue",
+    "Openness": "Private",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.35115563,
+    "Long": -115.7262226
   },
   {
     "Name": "The Tiki House",
@@ -171,40 +225,76 @@
     "Long": -115.7265341
   },
   {
-    "Name": "Bombay Beach Cinematheque",
+    "Name": "Atlantis Inn Collective",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "Marco Walker",
+    "Artist Website": "",
+    "Lat": 33.3489563,
+    "Long": -115.73096
+  },
+  {
+    "Name": "Paradise",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34894822,
+    "Long": -115.7301016
+  },
+  {
+    "Name": "No Shoes",
     "Category": "Venue",
     "Openness": "Private",
     "Artist(s)": "",
     "Artist Website": "",
-    "Lat": 33.349178,
-    "Long": -115.725734
+    "Lat": 33.3490894,
+    "Long": -115.7269388
   },
   {
-    "Name": "Bombay Soleil",
-    "Category": "Venue",
-    "Openness": "Private, with public photo classes and tours",
-    "Artist(s)": "Sandi Wheaton",
+    "Name": "Museum of Unwanted Architecture",
+    "Category": "Gallery",
+    "Openness": "Private, unless invited",
+    "Artist(s)": "",
     "Artist Website": "",
-    "Lat": 33.3537679,
-    "Long": -115.7276783
+    "Lat": 33.34965,
+    "Long": -115.726501
   },
   {
-    "Name": "Blauhaus",
-    "Category": "Venue",
+    "Name": "The Poetry House",
+    "Category": "Gallery",
     "Openness": "Public",
     "Artist(s)": "",
     "Artist Website": "",
-    "Lat": 33.3531207,
-    "Long": -115.731111
+    "Lat": 33.349535,
+    "Long": -115.726539
   },
   {
-    "Name": "Cafe Bosna",
-    "Category": "Venue",
-    "Openness": "Public",
-    "Artist(s)": "Adisa Ziric, Dmytro Bershadskyy, Tah Rei",
-    "Artist Website": "https://cafebosna.cargo.site/",
-    "Lat": 33.3489844,
-    "Long": -115.7279718
+    "Name": "Temple to the Scientific Method",
+    "Category": "Gallery",
+    "Openness": "Private",
+    "Artist(s)": "Dadaonysous",
+    "Artist Website": "",
+    "Lat": 33.3526685,
+    "Long": -115.7280852
+  },
+  {
+    "Name": "Polaroid Museum",
+    "Category": "Gallery",
+    "Openness": "Private",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.35316389,
+    "Long": -115.7289723
+  },
+  {
+    "Name": "Foundation Foundation",
+    "Category": "Gallery",
+    "Openness": "Private",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.3500821,
+    "Long": -115.7294487
   },
   {
     "Name": "Sotheby's Real Estate Office",
@@ -216,22 +306,13 @@
     "Long": -115.7270889
   },
   {
-    "Name": "The Bombay Beach Drive-In",
-    "Category": "Art Installation",
-    "Openness": "Public",
-    "Artist(s)": "Stefan Ashkenazy",
-    "Artist Website": "",
-    "Lat": 33.3517231,
-    "Long": -115.7297369
-  },
-  {
     "Name": "The Egg",
     "Category": "Art Installation",
     "Openness": "Private, but viewable from the street",
     "Artist(s)": "Tao Ruspoli",
     "Artist Website": "",
-    "Lat": 33.349178,
-    "Long": -115.7257345
+    "Lat": 33.34999916,
+    "Long": -115.7266109
   },
   {
     "Name": "Salton Civilization Archeological Site",
@@ -261,6 +342,15 @@
     "Long": -115.7279718
   },
   {
+    "Name": "Showtown",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.3476,
+    "Long": -115.73329
+  },
+  {
     "Name": "Shig's Steps",
     "Category": "Art Installation",
     "Openness": "Public",
@@ -286,6 +376,15 @@
     "Artist Website": "",
     "Lat": 33.3511362,
     "Long": -115.7277005
+  },
+  {
+    "Name": "The Last Resort",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.35415658,
+    "Long": -115.733772
   },
   {
     "Name": "Dead Sea Forest",
@@ -477,13 +576,13 @@
     "Long": -115.7317249
   },
   {
-    "Name": "Abandoned Water Park",
+    "Name": "Dollhouse Theater",
     "Category": "Art Installation",
     "Openness": "Public",
-    "Artist(s)": "",
+    "Artist(s)": "Melody",
     "Artist Website": "",
-    "Lat": 33.3476,
-    "Long": -115.73329
+    "Lat": 33.34925573,
+    "Long": -115.7272744
   },
   {
     "Name": "TOXICON",
@@ -666,7 +765,7 @@
     "Long": -115.7284811
   },
   {
-    "Name": "The Only Other",
+    "Name": "The Ocean Remains in Bombay",
     "Category": "Art Installation",
     "Openness": "Public",
     "Artist(s)": "Midabi",

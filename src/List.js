@@ -57,8 +57,8 @@ function List({
     const order = [
       "Local Business",
       "Community Hub",
-      "Gallery",
       "Venue",
+      "Gallery",
       "Art Installation",
     ];
     const groupBy = (key, array) =>
