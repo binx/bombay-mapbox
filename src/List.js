@@ -4,6 +4,7 @@ import styled from "styled-components";
 const ListWrapper = styled.div`
   overflow-y: scroll;
   margin-left: 4px;
+  padding-bottom: 20px;
   @media (max-width: 1000px) {
     margin-top: 12px;
     overflow-y: visible;

@@ -67,6 +67,9 @@ function MapWrapper({
     [locations]
   );
 
+  // mapbox://styles/mapbox/satellite-v9
+  // mapbox://styles/binx/cleyhulax000001r4oeh1qzy8
+
   return (
     <Map
       reuseMaps
