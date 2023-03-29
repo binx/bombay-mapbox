@@ -92,14 +92,17 @@ function MapWrapper({
           longitude={userLocation.longitude}
           latitude={userLocation.latitude}
           anchor="bottom"
-          style={{
-            display: "inline-block",
-            width: "20px",
-            height: "20px",
-            borderRadius: "50%",
-            background: "#4286F4",
-          }}
-        ></Marker>
+        >
+          <div
+            style={{
+              display: "inline-block",
+              width: "20px",
+              height: "20px",
+              borderRadius: "50%",
+              background: "#4286F4",
+            }}
+          ></div>
+        </Marker>
       )}
       {selectedMarker && (
         <Popup
