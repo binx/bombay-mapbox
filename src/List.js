@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const ListWrapper = styled.div`
   overflow-y: scroll;
-  margin-left: 4px;
+  margin: 0 4px;
   padding-bottom: 20px;
   @media (max-width: 1000px) {
     margin-top: 12px;
@@ -32,10 +32,13 @@ const ListItem = styled.div`
     background-color: rgba(0, 0, 0, 0.05);
   }
   font-weight: ${(props) => (props.selectedMaker ? "bold" : "inherit")};
-  margin-top: ${(props) => (props.selectedMaker ? "20px" : "0")};
+  margin-top: ${(props) => (props.selectedMaker && props.hasEvents ? "20px" : "0")};
 `;
-// background-color: ${(props) =>
-//   props.selectedMaker ? "rgba(0,0,0,.1) !important" : "inherit"};
+const CloseX = styled.div`
+  font-size: 36px;
+  line-height: 16px;
+  color: #555;
+`;
 const Dot = styled.div`
   display: inline-block;
   box-sizing: border-box;
@@ -59,11 +62,11 @@ function List({
 
   useEffect(() => {
     const order = [
-      "Parking",
       "Local Business",
       "Community Hub",
       "Venue",
       "Gallery",
+      "Parking",
       "Bathroom",
       "Art Installation",
     ];
@@ -94,9 +97,9 @@ function List({
   return (
     <ListWrapper>
       <div style={{ marginBottom: "20px" }}>
-        <Dot style={{ background: "#555" }} /> Has a Scheduled Event(s)
+        <Dot style={{ background: "#555" }} /> Has a scheduled event(s)
         <div>
-          <Dot style={{ border: "2px solid #555" }} /> No Scheduled Events
+          <Dot style={{ border: "3px solid #555" }} /> Open, no schedule
         </div>
       </div>
       {listGroups.map((group, i) => {
@@ -127,6 +130,7 @@ function List({
                   selectedMaker={
                     selectedMarker && selectedMarker["Name"] === l["Name"]
                   }
+                  hasEvents={!!l.Events}
                 >
                   <Dot
                     style={{
@@ -135,10 +139,13 @@ function List({
                         : "transparent",
                       border: l["Events"]
                         ? "none"
-                        : `2px solid ${markerColors[l["Category"]]}`,
+                        : `3px solid ${markerColors[l["Category"]]}`,
                     }}
                   />
-                  {l["Name"]}
+                  <span style={{ flex: 1 }}>{l["Name"]}</span>
+                  { selectedMarker && selectedMarker["Name"] === l["Name"] && selectedMarker["Events"] && (
+                    <CloseX>×</CloseX>
+                  )}
                 </ListItem>
                 {selectedMarker &&
                   selectedMarker["Name"] === l["Name"] &&

@@ -18,6 +18,15 @@
     "Long": -115.7335035
   },
   {
+    "Name": "American Legion",
+    "Category": "Local Business",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.3547378,
+    "Long": -115.725771
+  },
+  {
     "Name": "Chow Market",
     "Category": "Local Business",
     "Openness": "Public",
@@ -63,6 +72,60 @@
     "Long": -115.7269848
   },
   {
+    "Name": "The Beach",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34747263,
+    "Long": -115.7296055
+  },
+  {
+    "Name": "Department of Redundancy Dept. (The Dord)",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.3489844,
+    "Long": -115.7279718
+  },
+  {
+    "Name": "No Shoes",
+    "Category": "Venue",
+    "Openness": "Private",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.3490894,
+    "Long": -115.7269388
+  },
+  {
+    "Name": "Kamar-Taj",
+    "Category": "Venue",
+    "Openness": "Private",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.35355222,
+    "Long": -115.7287069
+  },
+  {
+    "Name": "The Bombay Beach Drive-In",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "Stefan Ashkenazy",
+    "Artist Website": "",
+    "Lat": 33.3517231,
+    "Long": -115.7297369
+  },
+  {
+    "Name": "Cafe Bosna",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "Adisa Ziric, Dmytro Bershadskyy, Tah Rei",
+    "Artist Website": "https://cafebosna.cargo.site/",
+    "Lat": 33.34928635,
+    "Long": -115.7280227
+  },
+  {
     "Name": "The Sub Club",
     "Category": "Venue",
     "Openness": "Public",
@@ -81,51 +144,6 @@
     "Long": -115.7294533
   },
   {
-    "Name": "Cafe Bosna",
-    "Category": "Venue",
-    "Openness": "Public",
-    "Artist(s)": "Adisa Ziric, Dmytro Bershadskyy, Tah Rei",
-    "Artist Website": "https://cafebosna.cargo.site/",
-    "Lat": 33.34928635,
-    "Long": -115.7280227
-  },
-  {
-    "Name": "Department of Redundancy Dept. (The Dord)",
-    "Category": "Venue",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.3489844,
-    "Long": -115.7279718
-  },
-  {
-    "Name": "The Beach",
-    "Category": "Venue",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.34747263,
-    "Long": -115.7296055
-  },
-  {
-    "Name": "BBBBistro",
-    "Category": "Venue",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.34911149,
-    "Long": -115.7336359
-  },
-  {
-    "Name": "The Bombay Beach Drive-In",
-    "Category": "Venue",
-    "Openness": "Public",
-    "Artist(s)": "Stefan Ashkenazy",
-    "Artist Website": "",
-    "Lat": 33.3517231,
-    "Long": -115.7297369
-  },
-  {
     "Name": "The Opera House",
     "Category": "Venue",
     "Openness": "Private",
@@ -135,40 +153,31 @@
     "Long": -115.7298048
   },
   {
-    "Name": "American Legion",
+    "Name": "Atlantis Inn Collective",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "Marco Walker",
+    "Artist Website": "",
+    "Lat": 33.3489563,
+    "Long": -115.73096
+  },
+  {
+    "Name": "Paradise",
     "Category": "Venue",
     "Openness": "Public",
     "Artist(s)": "",
     "Artist Website": "",
-    "Lat": 33.3547378,
-    "Long": -115.725771
+    "Lat": 33.34894822,
+    "Long": -115.7301016
   },
   {
-    "Name": "Bombay Beach Cinematheque and Archery",
+    "Name": "BBBBistro",
     "Category": "Venue",
-    "Openness": "Private",
+    "Openness": "Public",
     "Artist(s)": "",
     "Artist Website": "",
-    "Lat": 33.349178,
-    "Long": -115.725734
-  },
-  {
-    "Name": "Kamar-Taj",
-    "Category": "Venue",
-    "Openness": "Private",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.35355222,
-    "Long": -115.7287069
-  },
-  {
-    "Name": "Bombay Soleil",
-    "Category": "Venue",
-    "Openness": "Private, with public photo classes and tours",
-    "Artist(s)": "Sandi Wheaton",
-    "Artist Website": "",
-    "Lat": 33.3537679,
-    "Long": -115.7276783
+    "Lat": 33.34911149,
+    "Long": -115.7336359
   },
   {
     "Name": "Blauhaus",
@@ -243,31 +252,31 @@
     "Long": -115.7265341
   },
   {
-    "Name": "Atlantis Inn Collective",
+    "Name": "Bombay Soleil",
     "Category": "Venue",
-    "Openness": "Public",
-    "Artist(s)": "Marco Walker",
+    "Openness": "Private, with public photo classes and tours",
+    "Artist(s)": "Sandi Wheaton",
     "Artist Website": "",
-    "Lat": 33.3489563,
-    "Long": -115.73096
+    "Lat": 33.3537679,
+    "Long": -115.7276783
   },
   {
-    "Name": "Paradise",
-    "Category": "Venue",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.34894822,
-    "Long": -115.7301016
-  },
-  {
-    "Name": "No Shoes",
+    "Name": "Bombay Beach Cinematheque and Archery",
     "Category": "Venue",
     "Openness": "Private",
     "Artist(s)": "",
     "Artist Website": "",
-    "Lat": 33.3490894,
-    "Long": -115.7269388
+    "Lat": 33.349178,
+    "Long": -115.725734
+  },
+  {
+    "Name": "Temple to the Scientific Method",
+    "Category": "Gallery",
+    "Openness": "Private",
+    "Artist(s)": "Dadaonysous",
+    "Artist Website": "",
+    "Lat": 33.35263116,
+    "Long": -115.7280142
   },
   {
     "Name": "Museum of Unwanted Architecture",
@@ -286,15 +295,6 @@
     "Artist Website": "https://www.patreon.com/reginavictor",
     "Lat": 33.349535,
     "Long": -115.726539
-  },
-  {
-    "Name": "Temple to the Scientific Method",
-    "Category": "Gallery",
-    "Openness": "Private",
-    "Artist(s)": "Dadaonysous",
-    "Artist Website": "",
-    "Lat": 33.3526685,
-    "Long": -115.7280852
   },
   {
     "Name": "Polaroid Museum",
@@ -396,6 +396,60 @@
     "Long": -115.7295255
   },
   {
+    "Name": "The Bombay Beach Estates",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "Stefan Ashkenazy",
+    "Artist Website": "",
+    "Lat": 33.3489844,
+    "Long": -115.7279718
+  },
+  {
+    "Name": "The Portal",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "Marc Vinciguerra",
+    "Artist Website": "",
+    "Lat": 33.349284,
+    "Long": -115.727051
+  },
+  {
+    "Name": "Dollhouse Theater",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "Melody",
+    "Artist Website": "",
+    "Lat": 33.34925573,
+    "Long": -115.7272744
+  },
+  {
+    "Name": "Reading Room",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.35293286,
+    "Long": -115.7303969
+  },
+  {
+    "Name": "Laryngopharyngeal Reflux",
+    "Category": "Art Installation",
+    "Openness": "Public - evenings until Thurs, then at Ave E location",
+    "Artist(s)": "",
+    "Artist Website": "http://www.houseofpain.org/LPR",
+    "Lat": 33.34985,
+    "Long": -115.7309111
+  },
+  {
+    "Name": "Laryngopharyngeal Reflux 2",
+    "Category": "Art Installation",
+    "Openness": "Public - evenings from Thursday on, also see Ave D location",
+    "Artist(s)": "",
+    "Artist Website": "http://www.houseofpain.org/LPR",
+    "Lat": 33.3498516,
+    "Long": -115.7294547
+  },
+  {
     "Name": "Sotheby's Real Estate Office",
     "Category": "Art Installation",
     "Openness": "Public",
@@ -430,15 +484,6 @@
     "Artist Website": "",
     "Lat": 33.3517046,
     "Long": -115.7260541
-  },
-  {
-    "Name": "The Bombay Beach Estates",
-    "Category": "Art Installation",
-    "Openness": "Public",
-    "Artist(s)": "Stefan Ashkenazy",
-    "Artist Website": "",
-    "Lat": 33.3489844,
-    "Long": -115.7279718
   },
   {
     "Name": "Showtown",
@@ -675,15 +720,6 @@
     "Long": -115.7317249
   },
   {
-    "Name": "Dollhouse Theater",
-    "Category": "Art Installation",
-    "Openness": "Public",
-    "Artist(s)": "Melody",
-    "Artist Website": "",
-    "Lat": 33.34925573,
-    "Long": -115.7272744
-  },
-  {
     "Name": "TOXICON",
     "Category": "Art Installation",
     "Openness": "Public",
@@ -783,15 +819,6 @@
     "Long": -115.726879
   },
   {
-    "Name": "The Portal",
-    "Category": "Art Installation",
-    "Openness": "Public",
-    "Artist(s)": "Marc Vinciguerra",
-    "Artist Website": "",
-    "Lat": 33.349284,
-    "Long": -115.727051
-  },
-  {
     "Name": "SOS",
     "Category": "Art Installation",
     "Openness": "Public",
@@ -889,24 +916,6 @@
     "Artist Website": "http://thefacefoods.com",
     "Lat": 33.3492909,
     "Long": -115.7276848
-  },
-  {
-    "Name": "Laryngopharyngeal Reflux",
-    "Category": "Art Installation",
-    "Openness": "Public - evenings until Thurs, then at Ave E location",
-    "Artist(s)": "",
-    "Artist Website": "http://www.houseofpain.org/LPR",
-    "Lat": 33.34985,
-    "Long": -115.7309111
-  },
-  {
-    "Name": "Laryngopharyngeal Reflux 2",
-    "Category": "Art Installation",
-    "Openness": "Public - evenings from Thursday on, also see Ave D location",
-    "Artist(s)": "",
-    "Artist Website": "http://www.houseofpain.org/LPR",
-    "Lat": 33.3498516,
-    "Long": -115.7294547
   },
   {
     "Name": "Fish skeleton",
@@ -1015,5 +1024,23 @@
     "Artist Website": "",
     "Lat": 33.34904,
     "Long": -115.7330709
+  },
+  {
+    "Name": "Bonolith",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34543176,
+    "Long": -115.729554
+  },
+  {
+    "Name": "Initials BB II",
+    "Category": "Art Installation",
+    "Openness": "Private, but viewable from the street",
+    "Artist(s)": "Olivia Fougeirol",
+    "Artist Website": "",
+    "Lat": 33.3526685,
+    "Long": -115.7280852
   }
 ]
