@@ -39,7 +39,7 @@ function App() {
     setLocations(locationsJSON);
 
     function success(position) {
-      setLocations(position.coords);
+      setUserLocation(position.coords);
     }
 
     if (navigator.geolocation) {

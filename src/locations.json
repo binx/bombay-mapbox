@@ -54,6 +54,15 @@
     "Long": -115.7305994
   },
   {
+    "Name": "Parking",
+    "Category": "Community Hub",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34825483,
+    "Long": -115.7335065
+  },
+  {
     "Name": "The Sub Club",
     "Category": "Venue",
     "Openness": "Public",
@@ -77,8 +86,8 @@
     "Openness": "Public",
     "Artist(s)": "Adisa Ziric, Dmytro Bershadskyy, Tah Rei",
     "Artist Website": "https://cafebosna.cargo.site/",
-    "Lat": 33.3493192,
-    "Long": -115.7281869
+    "Lat": 33.34928635,
+    "Long": -115.7280227
   },
   {
     "Name": "Department of Redundancy Dept. (The Dord)",
@@ -482,8 +491,8 @@
     "Openness": "Public",
     "Artist(s)": "",
     "Artist Website": "",
-    "Lat": 33.34825767303164,
-    "Long": -115.72935877459238
+    "Lat": 33.34825936,
+    "Long": -115.7293901
   },
   {
     "Name": "The Windmill House",
