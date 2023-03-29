@@ -45,15 +45,6 @@
     "Long": -115.726117
   },
   {
-    "Name": "The Cult of Reality's Grhastha Matha",
-    "Category": "Community Hub",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.352326,
-    "Long": -115.7269848
-  },
-  {
     "Name": "BBAC Center Bombay Beach Arts & Culture Center",
     "Category": "Community Hub",
     "Openness": "Public",
@@ -61,6 +52,15 @@
     "Artist Website": "",
     "Lat": 33.3532565,
     "Long": -115.7305994
+  },
+  {
+    "Name": "The Cult of Reality's Grhastha Matha",
+    "Category": "Community Hub",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.352326,
+    "Long": -115.7269848
   },
   {
     "Name": "The Sub Club",
@@ -135,7 +135,7 @@
     "Long": -115.725771
   },
   {
-    "Name": "Bombay Beach Cinematheque",
+    "Name": "Bombay Beach Cinematheque and Archery",
     "Category": "Venue",
     "Openness": "Private",
     "Artist(s)": "",
@@ -273,8 +273,8 @@
     "Name": "The Poetry House",
     "Category": "Gallery",
     "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
+    "Artist(s)": "Pharaoh",
+    "Artist Website": "https://www.patreon.com/reginavictor",
     "Lat": 33.349535,
     "Long": -115.726539
   },
@@ -889,5 +889,23 @@
     "Artist Website": "",
     "Lat": 33.35292,
     "Long": -115.72665
+  },
+  {
+    "Name": "The Crying Room",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "Lisa Darling",
+    "Artist Website": "",
+    "Lat": 33.351168,
+    "Long": -115.729746
+  },
+  {
+    "Name": "Heart of Bombay Mural",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "Jennifer Korsen",
+    "Artist Website": "",
+    "Lat": 33.35074801,
+    "Long": -115.7281045
   }
 ]
