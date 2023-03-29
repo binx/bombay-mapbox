@@ -15,7 +15,7 @@ function MapWrapper({
   setViewState,
 }) {
   const [mapDimensions, setMapDimensions] = useState({
-    width: "80vw",
+    width: "75vw",
     height: "100%",
   });
 

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, Fragment } from "react";
 import styled from "styled-components";
 
 const ListWrapper = styled.div`
@@ -27,15 +27,18 @@ const Title = styled.div`
 const ListItem = styled.div`
   display: flex;
   cursor: pointer;
-  color: #555;
+  color: ${(props) => (props.selectedMaker ? "#000" : "#555")};
   &:hover {
     background-color: rgba(0, 0, 0, 0.05);
   }
-  background-color: ${(props) =>
-    props.selectedMaker ? "rgba(0,0,0,.1) !important" : "inherit"};
+  font-weight: ${(props) => (props.selectedMaker ? "bold" : "inherit")};
+  margin-top: ${(props) => (props.selectedMaker ? "20px" : "0")};
 `;
+// background-color: ${(props) =>
+//   props.selectedMaker ? "rgba(0,0,0,.1) !important" : "inherit"};
 const Dot = styled.div`
   display: inline-block;
+  box-sizing: border-box;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -47,6 +50,7 @@ const Dot = styled.div`
 function List({
   markerColors,
   locations,
+  schedule,
   selectedMarker,
   setSelectedMarker,
   setViewState,
@@ -73,11 +77,28 @@ function List({
       );
 
     const grouped = groupBy("Category", locations);
-    setListGroups(order.map((o) => ({ key: o, values: grouped[o] || [] })));
-  }, [locations]);
+    const newGroups = order.map((o) => {
+      const values = grouped[o] || [];
+
+      values.forEach((v) => {
+        const events = schedule.find((s) => s.Name === v.Name);
+        if (events) v.Events = events.Events;
+        else v.Events = null;
+      });
+
+      return { key: o, values };
+    });
+    setListGroups(newGroups);
+  }, [locations, schedule]);
 
   return (
     <ListWrapper>
+      <div style={{ marginBottom: "20px" }}>
+        <Dot style={{ background: "#555" }} /> Has a Scheduled Event(s)
+        <div>
+          <Dot style={{ border: "2px solid #555" }} /> No Scheduled Events
+        </div>
+      </div>
       {listGroups.map((group, i) => {
         return (
           <Group key={`group${i}`}>
@@ -107,18 +128,64 @@ function List({
                     selectedMarker && selectedMarker["Name"] === l["Name"]
                   }
                 >
-                  <Dot style={{ background: markerColors[l["Category"]] }} />
+                  <Dot
+                    style={{
+                      background: l["Events"]
+                        ? markerColors[l["Category"]]
+                        : "transparent",
+                      border: l["Events"]
+                        ? "none"
+                        : `2px solid ${markerColors[l["Category"]]}`,
+                    }}
+                  />
                   {l["Name"]}
                 </ListItem>
-                {/* {selectedMarker && selectedMarker["Name"] === l["Name"] && (
-                  <div style={{ padding: "12px" }}>
-                    <div>
-                      <i>{l["Category"]}</i>
-                    </div>
-                    <div>{l["Artist(s)"]}</div>
-                    <div style={{ color: "#888" }}>{l["Openness"]}</div>
-                  </div>
-                )} */}
+                {selectedMarker &&
+                  selectedMarker["Name"] === l["Name"] &&
+                  selectedMarker["Events"] && (
+                    <table
+                      style={{
+                        borderCollapse: "collapse",
+                        margin: "10px 0 30px",
+                        width: "100%",
+                      }}
+                    >
+                      <tbody>
+                        {selectedMarker.Events.map((e, i) => (
+                          <Fragment key={`event${i}`}>
+                            <tr>
+                              <td
+                                style={{
+                                  borderTop: "1px solid #ccc",
+                                  color: "#888",
+                                }}
+                              >
+                                {e.Day}
+                              </td>
+                              <td
+                                style={{
+                                  borderTop: "1px solid #ccc",
+                                  color: "#888",
+                                  textAlign: "right",
+                                  paddingRight: "10px",
+                                }}
+                              >
+                                {e.Time}
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                colSpan="2"
+                                style={{ borderBottom: "1px solid #ccc" }}
+                              >
+                                {e.Event}
+                              </td>
+                            </tr>
+                          </Fragment>
+                        ))}
+                      </tbody>
+                    </table>
+                  )}
               </div>
             ))}
           </Group>

@@ -6,7 +6,7 @@ import MapWrapper from "./Map";
 import List from "./List";
 
 import locationsJSON from "./locations.json";
-// import events from "./events.json";
+import scheduleJSON from "./schedule.json";
 
 const markerColors = {
   "Parking": "#FA7B5D",
@@ -30,7 +30,6 @@ const ContentWrapper = styled.div`
 
 function App() {
   const [selectedMarker, setSelectedMarker] = useState();
-  const [locations, setLocations] = useState([]);
   const [viewState, setViewState] = useState({
     longitude: -115.729625,
     latitude: 33.35,
@@ -39,8 +38,6 @@ function App() {
   const [userLocation, setUserLocation] = useState();
 
   useEffect(() => {
-    setLocations(locationsJSON);
-
     const options = {
       enableHighAccuracy: true,
       timeout: 10000,
@@ -67,7 +64,7 @@ function App() {
           <MapWrapper
             userLocation={userLocation}
             markerColors={markerColors}
-            locations={locations}
+            locations={locationsJSON}
             selectedMarker={selectedMarker}
             setSelectedMarker={setSelectedMarker}
             viewState={viewState}
@@ -76,7 +73,8 @@ function App() {
         </div>
         <List
           markerColors={markerColors}
-          locations={locations}
+          locations={locationsJSON}
+          schedule={scheduleJSON}
           selectedMarker={selectedMarker}
           setSelectedMarker={setSelectedMarker}
           setViewState={setViewState}

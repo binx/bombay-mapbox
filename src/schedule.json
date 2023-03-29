@@ -1,0 +1,697 @@
+[
+  {
+    "Name": "The Ski Inn",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "6 PM",
+        "Event": "FIRE BUG - LIVE MUSIC"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "9 PM",
+        "Event": "WORLD DESTROYER'S PLEASURE CLUB - LIVE MUSIC"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "7 PM",
+        "Event": "MOVIE CLUB - LIVE MUSIC"
+      }
+    ]
+  },
+  {
+    "Name": "Chow Market",
+    "Events": [
+      {
+        "Day": "SATURDAY",
+        "Time": "8 AM",
+        "Event": "COFFEE, TEA, HOT CHOCOLATE AND DONUTS!"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "1 PM - 6 PM",
+        "Event": "ICE CREAM.. .HOT DOGS...ICE CREAM AND MORE!"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "8 AM",
+        "Event": "COFFEE, TEA, HOT CHOCOLATE AND DONUTS!"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "1 PM - 6 PM",
+        "Event": "ICE CREAM... HOT DOGS... ICE CREAM AND MORE"
+      }
+    ]
+  },
+  {
+    "Name": "The Bombay Beach Institute of Particle Physics, Metaphysics & International Relations",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "7 PM",
+        "Event": "RAINBOW ROAD - ROVING A/V PERFORMANCE"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "6 PM",
+        "Event": "JESSIKA VON RABBIT - LIVE MUSIC"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "7 PM",
+        "Event": "MEMORIAL PROCESSION to SHIG MEMORIAL PYRAMIDS"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "7 PM",
+        "Event": "RAINBOW ROAD - ROVING A/V PERFORMANCE"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "11 AM",
+        "Event": "SISTER JOHN ANGELA - LIVE MUSIC"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "7 PM",
+        "Event": "APPA SUAVECICLO - ROVING A/V PERFORMANCE"
+      }
+    ]
+  },
+  {
+    "Name": "Zig Zag Plaza",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "9:30 AM",
+        "Event": "SELF-GUIDED YOGA"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "2 PM",
+        "Event": "A SCULPTURE A DAY - LIVE SCULPTURE MAKING"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "4 PM",
+        "Event": "A KID'S DREAM GROWN UP - ICE CREAM MACHINE"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "12 PM-3 PM",
+        "Event": "ARBITRARY PERMANENCE - POP-UP TATTOO PARLOR"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "9:30 AM",
+        "Event": "SELF-GUIDED YOGA"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "12 PM - 3 PM",
+        "Event": "ARBITRARY PERMANENCE - POP-UP TATTOO PARLOR"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "2 PM",
+        "Event": "A SCULPTURE A DAY - LIVE SCULPTURE MAKING"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "4 PM",
+        "Event": "A KID'S DREAM GROWN UP - ICE CREAM MACHINE"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "9:30 AM",
+        "Event": "SELF-GUIDED YOGA"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "12 PM - 3 PM",
+        "Event": "ARBITARY PERMANENCE - POP-UP TATTOO PARLOR"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "2 PM",
+        "Event": "A SCULPTURE A DAY - LIVE SCULPTURE MAKING"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "4 PM",
+        "Event": "A KID'S DREAM GROWN UP - ICE CREAM MACHINE"
+      }
+    ]
+  },
+  {
+    "Name": "The Cult of Reality's Grhastha Matha",
+    "Events": []
+  },
+  {
+    "Name": "BBAC Center Bombay Beach Arts & Culture Center",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "9 AM-2 PM",
+        "Event": "ART BY KIDS - GALLERY FEAT. WORK BY THE BB KIDS CLUB"
+      },
+
+      {
+        "Day": "SATURDAY",
+        "Time": "9 AM-2 PM",
+        "Event": "ART BY KIDS - GALLERY FEAT. WORK BY THE BB KIDS CLUB"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "2:30 PM",
+        "Event": "BOMBAY BEACH WEAR - FASHION SHOW"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "9 AM - 2 PM",
+        "Event": "ART BY KIDS - GALLERY FEAT. WORK BY THE BB KIDS CLUB"
+      }
+    ]
+  },
+  {
+    "Name": "The Sub Club",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "11 PM - LATE",
+        "Event": "SUB CLUB INITIATION"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "11 PM - LATE",
+        "Event": "THE SUB CLUB DEPLOYMENT"
+      }
+    ]
+  },
+  {
+    "Name": "Cafe Bosna",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "6 PM-6 AM",
+        "Event": "IMMERSIVE MUSIC/COFFEE EXPERIENCE"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "6 PM-6 AM",
+        "Event": "IMMERSIVE MUSIC/COFFEE EXPERIENCE"
+      }
+    ]
+  },
+  {
+    "Name": "Department of Redundancy Dept. (The Dord)",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "5 PM",
+        "Event": "THE LITHIUM CONTINGENCY - PHILOSOPHY LECTURE"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "10 PM",
+        "Event": "TYLER HAMMOND JAZZ EXPERIENCE"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "4 PM",
+        "Event": "AESTHETIC EXPLORATION: NOT A LUXURY"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "5 PM",
+        "Event": "ART MAKES BEING BEING-ER"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "10 PM",
+        "Event": "TYLER HAMMOND JAZZ EXPERIENCE"
+      }
+    ]
+  },
+  {
+    "Name": "The Bombay Beach Drive-In",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "9 PM",
+        "Event": "BOMBAY SHORIS - SCREENING"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "9 PM",
+        "Event": "MARS SHORTS - SCREENING"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "8 PM",
+        "Event": "SECRET SCREENING"
+      }
+    ]
+  },
+  {
+    "Name": "The Opera House",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "4 PM",
+        "Event": "LUCIANO CHESSA'S FEEDBACK"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "7 PM",
+        "Event": "MARTIAN NOCTURNAL BROADCASTS - PERFORMANCE"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "8 PM",
+        "Event": "OPERA & BALLET"
+      }
+    ]
+  },
+  {
+    "Name": "American Legion",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "8 PM",
+        "Event": "TELLING STORIES OF THE DESERT - TALK"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "9 PM",
+        "Event": "HITCHCOCK BRUNETTES - LIVE MUSIC"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "8 PM",
+        "Event": "TRIGGER WARNING: NOT SO SECRET SEX LIVES IN MEMOIR AND FICTION"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "9 PM",
+        "Event": "RICH FERGUSON, THRILL MY WIFE - LIVE MUSIC"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "8 PM",
+        "Event": "UNCONVENTIONAL FEMALE PROTAGONISTS"
+      }
+    ]
+  },
+  {
+    "Name": "Kamar-Taj",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "7:30 PM",
+        "Event": "TEA-EN-ALLEY - INTENTIONAL TEA IN THE ALLEY BEHIND KAMAR-TAJ"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "8 PM",
+        "Event": "MORNING BED DRESS - DANCE PERFORMANCE"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "11 PM",
+        "Event": "AN OPEN DOOR FOR A CLOSED WORLD - MIDNIGHTS - LECTURE"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "9 PM 11",
+        "Event": "QUESTIONS ABOUT QUESTIONS: REGARDING A PARABLE BY RAYMOND SMULLYAN - MIDNIGHTS - INTERACTIVE"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "9 AM",
+        "Event": "YOGA - HOSTED BY FREEMAN"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "10 AM",
+        "Event": "TEA-EN-ALLEY - INTENTIONAL TEA IN THE ALLEY BEHIND KAMAR-TAJ"
+      }
+    ]
+  },
+  {
+    "Name": "Blauhaus",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "7 PM - 11 PM",
+        "Event": "CLUB CHAOS - LIGHT & MUSIC INSTALLATION"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "11 AM",
+        "Event": "PANCAKES & COFFEE BRUNCH"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "7 PM - 11 PM",
+        "Event": "CLUB CHAOS - LIGHT & MUSIC INSTALLATION"
+      }
+    ]
+  },
+  {
+    "Name": "Saturn",
+    "Events": [
+      {
+        "Day": "SATURDAY",
+        "Time": "2 PM",
+        "Event": "BOMBAY BEACHY YAMI-ICHI - IRL INTERNET FAIR"
+      }
+    ]
+  },
+  {
+    "Name": "Drakkar Noir",
+    "Events": [
+      {
+        "Day": "SATURDAY",
+        "Time": "3 PM",
+        "Event": "AFFOGATOS"
+      }
+    ]
+  },
+  {
+    "Name": "Atlantis Inn Collective",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "9 PM - LATE",
+        "Event": "«ALVARO & FRIENDS° SONGS FOR LOVERS"
+      }
+    ]
+  },
+  {
+    "Name": "Paradise",
+    "Events": [
+      {
+        "Day": "SATURDAY",
+        "Time": "2 PM",
+        "Event": "MAKING HEY IN THE INFOSPHERE - PERFORMANCE"
+      }
+    ]
+  },
+  {
+    "Name": "No Shoes",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "2 PM",
+        "Event": "CA ON FIRE & INVISIBLE VALLEY - SCREENING"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "10 AM",
+        "Event": "BEING IN THE WORLD - SCREENING"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "11:30 AM",
+        "Event": "BEING IN THE WORLD PANEL DISCUSSION"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "2 PM",
+        "Event": "THE EMBODIED CREATIVITY OF THE IRANS EXPERIENCE"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "5 PM",
+        "Event": "MUMBAI BEACH - MEDITATION & CHAI"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "2 AM",
+        "Event": "MIDNIGHT SHORTS - SCREENING"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "11 AM",
+        "Event": "ARTIST SHORTS - SCREENING"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "12 PM",
+        "Event": "BUILD YOUR HOUSES ON THE SLOPES OF MapTouchEvent. VESUVIUS!"
+      }
+    ]
+  },
+  {
+    "Name": "Museum of Unwanted Architecture",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "5 PM",
+        "Event": "ADAM BOMBAY'S DARK VISIONS - EXHIBITION OPENING & MUSIC"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "8 PM",
+        "Event": "ANALOGUE LOUNGE - CHILL VINYLS & HANDMADE COCKTAILS"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "1 PM",
+        "Event": "THE CITY IS DEAD, LONG LIVE THE CITY! - LECTURE"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "5 PM",
+        "Event": "ZAPPELVIS ARCHITECTURAL SHORTS & TRAILERS - SCREENING"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "9 PM",
+        "Event": "DIGITAL HOUSE IN THE"
+      }
+    ]
+  },
+  {
+    "Name": "The Poetry House",
+    "Events": [
+      {
+        "Day": "SATURDAY",
+        "Time": "11 AM",
+        "Event": "PHAROAH & TAROT"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "2 PM",
+        "Event": "PHAROAH & TAROT"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "3 PM",
+        "Event": "POETRY SALON"
+      }
+    ]
+  },
+  {
+    "Name": "Temple to the Scientific Method",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "11 AM",
+        "Event": "KOKOPELLIE SPIRIT JOURNEY - WORKSHOP"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "1 PM",
+        "Event": "VIDEO GAME WRITING - WORKSHOP"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "2 PM",
+        "Event": "KELP JOURNAL READING"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "5 PM",
+        "Event": "SEX, DEATH & PAGES - TALK"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "11 AM",
+        "Event": "ONE MINUTE MEMOIR WORKSHOP"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "12:30 PM",
+        "Event": "TELL IT SLANT WORKSHOP"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "1:30 PM",
+        "Event": "THE DESERT SPLIT OPEN"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "4 PM",
+        "Event": "RACHEL RESNICK & MEREDITH MARAN READING"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "11 AM",
+        "Event": "ALONG THE CHAPARRAL"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "12 PM",
+        "Event": "EMBODY YOUR STORY: A SOMATIC STORYTELLING WORKSHOP"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "1 PM",
+        "Event": "READING BY CRAIG CLEVENGER & PATRICK O'NEIL REA"
+      }
+    ]
+  },
+  {
+    "Name": "Dollhouse Theater",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "2 PM",
+        "Event": "AI IN THE FAMILY - PLAY"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "2 PM",
+        "Event": "AI IN THE FAMILY - A PLAY"
+      }
+    ]
+  },
+  {
+    "Name": "The Portal",
+    "Events": [
+      {
+        "Day": "SATURDAY",
+        "Time": "10 PM",
+        "Event": "FROM DEATH TO ART IN NIETZSCHE & HEIDEGGER - MIDNIGHTS"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "11 AM",
+        "Event": "THE THEOLOGY OF CHAOS: DECODING THE SYMBOL OF SACRED NIHILISM"
+      }
+    ]
+  },
+  {
+    "Name": "Laryngopharyngeal Reflux",
+    "Events": [
+      {
+        "Day": "SATURDAY",
+        "Time": "7 PM - 12 AM",
+        "Event": "LARYNGOPHARYNGEAL REFLUX - INTERACTIVE"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "7 PM - 12 AM",
+        "Event": "LARYNGOPHARYNGEAL REFLUX - INTERACTIVE"
+      }
+    ]
+  },
+  {
+    "Name": "Laryngopharyngeal Reflux 2",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "7 PM - 12 AM",
+        "Event": "LARYNGOPHARYNGEAL REFLUX - INTERACTIVE"
+      }
+    ]
+  },
+  {
+    "Name": "The Bombay Beach Estates",
+    "Events": [
+      {
+        "Day": "SATURDAY",
+        "Time": "7:30 PM",
+        "Event": "GAMES SHOW! GAMES SHOW! GAMES SHOW! - INTERACTIVE"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "9 PM",
+        "Event": "HERE BE MONSTERS - MUSIC & ART"
+      }
+    ]
+  },
+  {
+    "Name": "The Beach",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "4 PM",
+        "Event": "SPECULATIVE FUTURES - LIVE VIDEO PERFORMANCE"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "6 PM",
+        "Event": "HAPPY HOUR at THE A-FRAME BEACH @ AVE H"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "6:30 PM",
+        "Event": "LIGHT PAINTING THE CHAOS - EXPERIENTIAL PHOTOGRAPHY"
+      },
+      {
+        "Day": "FRIDAY",
+        "Time": "7 PM",
+        "Event": "SKULL PONY DEL MAR SOUL ON FIRE - EXPERIENTIAL FIRE ART"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "5 PM",
+        "Event": "AQ SOUND BATH"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "5 PM - LATE",
+        "Event": "LEMONS"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "7:30 PM",
+        "Event": "THE FINAL RISE OF SAL PARADISE - PERFORMANCE"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "7 PM",
+        "Event": "SKULL PONY DEL MAR SOUL ON FIRE - EXPERIENTIAL FIRE ART"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "5 PM",
+        "Event": "AQ SOUND BATH"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "7 PM",
+        "Event": "THE FINAL RISE OF SAL PARADISE - PERFORMANCE"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "7 PM",
+        "Event": "SKULL PONY DEL MAR SOUL ON FIRE - EXPERIENTIAL FIRE ART"
+      }
+    ]
+  },
+  {
+    "Name": "Reading Room",
+    "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "4 PM",
+        "Event": "THE SALTON SEA RETURN TO ELDORADO PROJECT - TALK"
+      }
+    ]
+  }
+]
