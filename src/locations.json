@@ -1,5 +1,14 @@
 [
   {
+    "Name": "Parking",
+    "Category": "Parking",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.354693,
+    "Long": -115.733349
+  },
+  {
     "Name": "The Ski Inn",
     "Category": "Local Business",
     "Openness": "Public",
@@ -52,15 +61,6 @@
     "Artist Website": "",
     "Lat": 33.3532565,
     "Long": -115.7305994
-  },
-  {
-    "Name": "Parking",
-    "Category": "Community Hub",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.34825483,
-    "Long": -115.7335065
   },
   {
     "Name": "The Sub Club",
@@ -414,13 +414,13 @@
     "Long": -115.7294351
   },
   {
-    "Name": "Toy House",
+    "Name": "Bombay Boom",
     "Category": "Art Installation",
     "Openness": "Private, but viewable from the street",
     "Artist(s)": "Kenny Scharf",
     "Artist Website": "",
-    "Lat": 33.3527785,
-    "Long": -115.727112
+    "Lat": 33.3527779,
+    "Long": -115.7271038
   },
   {
     "Name": "Series of Cubes",

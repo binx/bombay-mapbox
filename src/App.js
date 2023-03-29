@@ -8,6 +8,7 @@ import List from "./List";
 import locationsJSON from "./locations.json";
 
 const markerColors = {
+  "Parking": "#FA7B5D",
   "Local Business": "#C98A76",
   "Community Hub": "#FFD2B7",
   Museum: "#A17A7B",

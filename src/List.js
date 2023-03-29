@@ -55,6 +55,7 @@ function List({
 
   useEffect(() => {
     const order = [
+      "Parking",
       "Local Business",
       "Community Hub",
       "Venue",
