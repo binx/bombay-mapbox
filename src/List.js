@@ -60,6 +60,7 @@ function List({
       "Community Hub",
       "Venue",
       "Gallery",
+      "Bathroom",
       "Art Installation",
     ];
     const groupBy = (key, array) =>

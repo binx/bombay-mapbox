@@ -18,7 +18,7 @@
     "Long": -115.7335035
   },
   {
-    "Name": "Bombay Market",
+    "Name": "Chow Market",
     "Category": "Local Business",
     "Openness": "Public",
     "Artist(s)": "",
@@ -304,6 +304,87 @@
     "Artist Website": "",
     "Lat": 33.3500821,
     "Long": -115.7294487
+  },
+  {
+    "Name": "The Ford House",
+    "Category": "Gallery",
+    "Openness": "Private",
+    "Artist(s)": "Joe Regan",
+    "Artist Website": "",
+    "Lat": 33.35047728,
+    "Long": -115.7336854
+  },
+  {
+    "Name": "Machine Inspired Art",
+    "Category": "Gallery",
+    "Openness": "Private",
+    "Artist(s)": "Behn Samareh",
+    "Artist Website": "http://machineinspiredart.com/",
+    "Lat": 33.34942099,
+    "Long": -115.7310088
+  },
+  {
+    "Name": "2nd & F",
+    "Category": "Bathroom",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.35356539,
+    "Long": -115.7289293
+  },
+  {
+    "Name": "Alley between 2nd and 3rd, & F",
+    "Category": "Bathroom",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.35286514,
+    "Long": -115.7286351
+  },
+  {
+    "Name": "5th & A",
+    "Category": "Bathroom",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34891329,
+    "Long": -115.7335133
+  },
+  {
+    "Name": "5th & E",
+    "Category": "Bathroom",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34895785,
+    "Long": -115.7298303
+  },
+  {
+    "Name": "5th & F",
+    "Category": "Bathroom",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34894842,
+    "Long": -115.72847
+  },
+  {
+    "Name": "5th & Aisle of Palms",
+    "Category": "Bathroom",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34895314,
+    "Long": -115.725569
+  },
+  {
+    "Name": "Beach",
+    "Category": "Bathroom",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34742554,
+    "Long": -115.7295255
   },
   {
     "Name": "Sotheby's Real Estate Office",
@@ -907,5 +988,23 @@
     "Artist Website": "",
     "Lat": 33.35074801,
     "Long": -115.7281045
+  },
+  {
+    "Name": "Dementional Noir",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "Spencer Davila",
+    "Artist Website": "",
+    "Lat": 33.34712,
+    "Long": -115.732195
+  },
+  {
+    "Name": "BB Country Club",
+    "Category": "Art Installation",
+    "Openness": "Public",
+    "Artist(s)": "John Geary",
+    "Artist Website": "",
+    "Lat": 33.34904,
+    "Long": -115.7330709
   }
 ]
