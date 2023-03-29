@@ -51,19 +51,21 @@ function MapWrapper({
 
   const markers = useMemo(
     () =>
-      [...locations].map((l, i) => {
-        return (
-          <Marker
-            key={`marker${i}`}
-            longitude={l.Long}
-            latitude={l.Lat}
-            anchor="bottom"
-            color={markerColors[l["Category"]]}
-            scale={0.7}
-            onClick={() => setSelectedMarker(l)}
-          ></Marker>
-        );
-      }).reverse(),
+      [...locations]
+        .map((l, i) => {
+          return (
+            <Marker
+              key={`marker${i}`}
+              longitude={l.Long}
+              latitude={l.Lat}
+              anchor="bottom"
+              color={markerColors[l["Category"]]}
+              scale={0.7}
+              onClick={() => setSelectedMarker(l)}
+            ></Marker>
+          );
+        })
+        .reverse(),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [locations]
   );
@@ -85,13 +87,20 @@ function MapWrapper({
     >
       <NavigationControl showCompass={false} />
       {markers}
-      {userLocation && <Marker
-            longitude={userLocation.longitude}
-            latitude={userLocation.latitude}
-            anchor="bottom"
-            color={"#ff0"}
-            scale={0.7}
-          ></Marker>}
+      {userLocation && (
+        <Marker
+          longitude={userLocation.longitude}
+          latitude={userLocation.latitude}
+          anchor="bottom"
+          style={{
+            display: "inline-block",
+            width: "20px",
+            height: "20px",
+            borderRadius: "50%",
+            background: "#4286F4",
+          }}
+        ></Marker>
+      )}
       {selectedMarker && (
         <Popup
           longitude={selectedMarker.Long}
