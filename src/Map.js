@@ -96,8 +96,9 @@ function MapWrapper({
           <div
             style={{
               display: "inline-block",
-              width: "20px",
-              height: "20px",
+              width: "12px",
+              height: "12px",
+              border: "1px solid white",
               borderRadius: "50%",
               background: "#4286F4",
             }}

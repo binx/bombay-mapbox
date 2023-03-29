@@ -38,12 +38,21 @@ function App() {
   useEffect(() => {
     setLocations(locationsJSON);
 
+    const options = {
+      enableHighAccuracy: true,
+      timeout: 10000,
+      maximumAge: 0,
+    };
+
     function success(position) {
       setUserLocation(position.coords);
     }
+    function error(err) {
+      console.warn(`ERROR(${err.code}): ${err.message}`);
+    }
 
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(success)
+      navigator.geolocation.getCurrentPosition(success, error, options)
     }
   }, []);
 
