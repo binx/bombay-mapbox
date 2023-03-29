@@ -6,7 +6,7 @@ import MapWrapper from "./Map";
 import List from "./List";
 
 import locationsJSON from "./locations.json";
-import events from "./events.json";
+// import events from "./events.json";
 
 const markerColors = {
   "Parking": "#FA7B5D",
@@ -40,36 +40,6 @@ function App() {
 
   useEffect(() => {
     setLocations(locationsJSON);
-
-    const stripped = [...events].map(e => {
-      e.Location = e["Location"].replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
-      delete e[""];
-      return e;
-    })
-
-    const groupBy = (key, array) =>
-      array.reduce(
-        (objectsByKeyValue, obj) => ({
-          ...objectsByKeyValue,
-          [obj[key]]: (objectsByKeyValue[obj[key]] || []).concat(obj),
-        }),
-        {}
-      );
-
-    const grouped = groupBy("Location", stripped);
-    console.log(Object.keys(grouped))
-    
-    console.log(JSON.stringify(Object.keys(grouped).map(key => ({
-      venue: key,
-      events: grouped[key]
-    }))))
-
-
-
-
-
-
-
 
     const options = {
       enableHighAccuracy: true,
