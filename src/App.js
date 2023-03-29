@@ -33,9 +33,18 @@ function App() {
     latitude: 33.35,
     zoom: 15.3,
   });
+  const [userLocation, setUserLocation] = useState();
 
   useEffect(() => {
     setLocations(locationsJSON);
+
+    function success(position) {
+      setLocations(position.coords);
+    }
+
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(success)
+    }
   }, []);
 
   return (
@@ -44,6 +53,7 @@ function App() {
       <ContentWrapper>
         <div>
           <MapWrapper
+            userLocation={userLocation}
             markerColors={markerColors}
             locations={locations}
             selectedMarker={selectedMarker}

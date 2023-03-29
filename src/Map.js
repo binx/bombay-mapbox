@@ -6,6 +6,7 @@ import { circle, booleanPointInPolygon } from "@turf/turf";
 const GEOFENCE = circle([-115.729625, 33.351508], 1, { units: "miles" });
 
 function MapWrapper({
+  userLocation,
   markerColors,
   locations,
   selectedMarker,
@@ -84,6 +85,13 @@ function MapWrapper({
     >
       <NavigationControl showCompass={false} />
       {markers}
+      {userLocation && <Marker
+            longitude={userLocation.longitude}
+            latitude={userLocation.latitude}
+            anchor="bottom"
+            color={"#ff0"}
+            scale={0.7}
+          ></Marker>}
       {selectedMarker && (
         <Popup
           longitude={selectedMarker.Long}
