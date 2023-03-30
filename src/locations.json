@@ -72,6 +72,15 @@
     "Long": -115.7269848
   },
   {
+    "Name": "Orange Plaza",
+    "Category": "Community Hub",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.3497553,
+    "Long": -115.7265627
+  },
+  {
     "Name": "The Beach",
     "Category": "Venue",
     "Openness": "Public",
@@ -115,6 +124,15 @@
     "Artist Website": "",
     "Lat": 33.3517231,
     "Long": -115.7297369
+  },
+  {
+    "Name": "Museum of Unwanted Architecture",
+    "Category": "Venue",
+    "Openness": "Private, unless invited",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.34965,
+    "Long": -115.726501
   },
   {
     "Name": "Cafe Bosna",
@@ -203,8 +221,8 @@
     "Openness": "Private",
     "Artist(s)": "",
     "Artist Website": "",
-    "Lat": 33.35115563,
-    "Long": -115.7262226
+    "Lat": 33.35132793,
+    "Long": -115.726207
   },
   {
     "Name": "The Tiki House",
@@ -277,15 +295,6 @@
     "Artist Website": "",
     "Lat": 33.35263116,
     "Long": -115.7280142
-  },
-  {
-    "Name": "Museum of Unwanted Architecture",
-    "Category": "Gallery",
-    "Openness": "Private, unless invited",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.34965,
-    "Long": -115.726501
   },
   {
     "Name": "The Poetry House",
