@@ -60,7 +60,7 @@ function MapWrapper({
               latitude={l.Lat}
               anchor="bottom"
               color={markerColors[l["Category"]]}
-              scale={0.7}
+              scale={l.Category === "Art Installation" ? 0.45 : 0.65}
               onClick={() => setSelectedMarker(l)}
             ></Marker>
           );
