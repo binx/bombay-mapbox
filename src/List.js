@@ -101,6 +101,7 @@ function List({
         <div>
           <Dot style={{ border: "3px solid #555" }} /> Open, no schedule
         </div>
+        <div style={{ fontStyle: "italic", color: "#888", marginTop: "10px", fontSize: "14px" }}>click on a venue to see events</div>
       </div>
       {listGroups.map((group, i) => {
         return (
@@ -120,11 +121,11 @@ function List({
                         latitude: l.Lat,
                         zoom: 17,
                       });
-                      window.scrollTo({
-                        top: 0,
-                        left: 0,
-                        behavior: "smooth",
-                      });
+                      // window.scrollTo({
+                      //   top: 0,
+                      //   left: 0,
+                      //   behavior: "smooth",
+                      // });
                     }
                   }}
                   selectedMaker={
