@@ -45,6 +45,21 @@
     ]
   },
   {
+    "Name": "BBBBistro",
+    "Events": [
+      {
+        "Day": "SATURDAY",
+        "Time": "7 PM",
+        "Event": "MEMORIAL PROCESSION to SHIG MEMORIAL PYRAMIDS"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "11 AM",
+        "Event": "SISTER JOHN ANGELA - LIVE MUSIC"
+      },
+    ]
+  },
+  {
     "Name": "The Bombay Beach Institute of Particle Physics, Metaphysics & International Relations",
     "Events": [
       {
@@ -54,23 +69,8 @@
       },
       {
         "Day": "SATURDAY",
-        "Time": "6 PM",
-        "Event": "JESSIKA VON RABBIT - LIVE MUSIC"
-      },
-      {
-        "Day": "SATURDAY",
-        "Time": "7 PM",
-        "Event": "MEMORIAL PROCESSION to SHIG MEMORIAL PYRAMIDS"
-      },
-      {
-        "Day": "SATURDAY",
         "Time": "7 PM",
         "Event": "RAINBOW ROAD - ROVING A/V PERFORMANCE"
-      },
-      {
-        "Day": "SUNDAY",
-        "Time": "11 AM",
-        "Event": "SISTER JOHN ANGELA - LIVE MUSIC"
       },
       {
         "Day": "SUNDAY",
@@ -154,13 +154,13 @@
       {
         "Day": "FRIDAY",
         "Time": "9 AM-2 PM",
-        "Event": "ART BY KIDS - GALLERY FEAT. WORK BY THE BB KIDS CLUB"
+        "Event": "COFFEE & OPEN GALLERY FEAT. ART BY THE BB KIDS CLUB BBAC"
       },
 
       {
         "Day": "SATURDAY",
         "Time": "9 AM-2 PM",
-        "Event": "ART BY KIDS - GALLERY FEAT. WORK BY THE BB KIDS CLUB"
+        "Event": "COFFEE & OPEN GALLERY FEAT. ART BY THE BB KIDS CLUB BBAC"
       },
       {
         "Day": "SATURDAY",
@@ -170,7 +170,12 @@
       {
         "Day": "SUNDAY",
         "Time": "9 AM - 2 PM",
-        "Event": "ART BY KIDS - GALLERY FEAT. WORK BY THE BB KIDS CLUB"
+        "Event": "COFFEE & OPEN GALLERY FEAT. ART BY THE BB KIDS CLUB BBAC"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "3 PM - 6 PM",
+        "Event": "LUNCH, DONATION SUGGESTED"
       }
     ]
   },
@@ -184,8 +189,23 @@
       },
       {
         "Day": "SATURDAY",
-        "Time": "11 PM - LATE",
+        "Time": "6 PM",
+        "Event": "JESSIKA VON RABBIT - LIVE MUSIC"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "12 AM - LATE",
         "Event": "THE SUB CLUB DEPLOYMENT"
+      }
+    ]
+  },
+  {
+    "Name": "Club 86",
+    "Events": [
+      {
+        "Day": "SATURDAY",
+        "Time": "6 PM",
+        "Event": "BEACH BBQ - SMOKEHOUSE STYLE, DONATIONS GO TO BBAC"
       }
     ]
   },
@@ -244,13 +264,13 @@
       },
       {
         "Day": "SATURDAY",
-        "Time": "9 PM",
+        "Time": "10 PM",
         "Event": "MARS SHORTS - SCREENING"
       },
       {
         "Day": "SUNDAY",
         "Time": "8 PM",
-        "Event": "SECRET SCREENING"
+        "Event": "BBBIFF SECRET FINALE SCREENING"
       }
     ]
   },
@@ -261,11 +281,6 @@
         "Day": "FRIDAY",
         "Time": "4 PM",
         "Event": "LUCIANO CHESSA'S FEEDBACK"
-      },
-      {
-        "Day": "FRIDAY",
-        "Time": "7 PM",
-        "Event": "MARTIAN NOCTURNAL BROADCASTS - PERFORMANCE"
       },
       {
         "Day": "SATURDAY",
@@ -301,6 +316,11 @@
         "Day": "SUNDAY",
         "Time": "8 PM",
         "Event": "UNCONVENTIONAL FEMALE PROTAGONISTS"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "9 PM",
+        "Event": "LANDROID - LIVE MUSIC"
       }
     ]
   },
@@ -345,7 +365,7 @@
       {
         "Day": "FRIDAY",
         "Time": "7 PM - 11 PM",
-        "Event": "CLUB CHAOS - LIGHT & MUSIC INSTALLATION"
+        "Event": "CLUB CHAOS - AFTER HOURS"
       },
       {
         "Day": "SATURDAY",
@@ -384,8 +404,8 @@
     "Events": [
       {
         "Day": "FRIDAY",
-        "Time": "9 PM - LATE",
-        "Event": "«ALVARO & FRIENDS° SONGS FOR LOVERS"
+        "Time": "9 PM",
+        "Event": "ALVARO & FRIENDS, SONGS FOR LOVERS - AFTER HOURS"
       }
     ]
   },
@@ -434,13 +454,8 @@
       },
       {
         "Day": "SUNDAY",
-        "Time": "11 AM",
-        "Event": "ARTIST SHORTS - SCREENING"
-      },
-      {
-        "Day": "SUNDAY",
-        "Time": "12 PM",
-        "Event": "BUILD YOUR HOUSES ON THE SLOPES OF MapTouchEvent. VESUVIUS!"
+        "Time": "2 PM",
+        "Event": "LAST STOP BEFORE CHOCOLATE MOUNTAIN (D. SUSANNA DELLA SALA)"
       }
     ]
   },
@@ -450,7 +465,7 @@
       {
         "Day": "FRIDAY",
         "Time": "5 PM",
-        "Event": "ADAM BOMBAY'S DARK VISIONS - EXHIBITION OPENING & MUSIC"
+        "Event": "OPENING EXHIBITION & MUSIC"
       },
       {
         "Day": "FRIDAY",
@@ -525,7 +540,7 @@
       {
         "Day": "SATURDAY",
         "Time": "12:30 PM",
-        "Event": "TELL IT SLANT WORKSHOP"
+        "Event": "TELL IT SLANT - WORKSHOP"
       },
       {
         "Day": "SATURDAY",
@@ -536,6 +551,16 @@
         "Day": "SATURDAY",
         "Time": "4 PM",
         "Event": "RACHEL RESNICK & MEREDITH MARAN READING"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "5 PM",
+        "Event": "THE ART OF WRITING SEX - PANEL"
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "8 PM",
+        "Event": "RED LIGHT SHORTS @ RED LIGHT THEATER"
       },
       {
         "Day": "SUNDAY",
@@ -551,6 +576,21 @@
         "Day": "SUNDAY",
         "Time": "1 PM",
         "Event": "READING BY CRAIG CLEVENGER & PATRICK O'NEIL REA"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "3 PM",
+        "Event": "UCR GROUP READING"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "3 PM",
+        "Event": "CENTERING FEMALE WRITERS/CHARACTERS OF COLOR"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "5 PM",
+        "Event": "INAUGURAL MASS, CHURCH OF POTENTIAL LIFE - TALK"
       }
     ]
   },
@@ -648,6 +688,11 @@
         "Event": "SKULL PONY DEL MAR SOUL ON FIRE - EXPERIENTIAL FIRE ART"
       },
       {
+        "Day": "FRIDAY",
+        "Time": "7 PM",
+        "Event": "LIFE GIVES YOU DEMONS - GRAND OPENING"
+      },
+      {
         "Day": "SATURDAY",
         "Time": "5 PM",
         "Event": "AQ SOUND BATH"
@@ -655,17 +700,22 @@
       {
         "Day": "SATURDAY",
         "Time": "5 PM - LATE",
-        "Event": "LEMONS"
+        "Event": "LEMONS - AFTER HOURS"
       },
       {
         "Day": "SATURDAY",
         "Time": "7:30 PM",
-        "Event": "THE FINAL RISE OF SAL PARADISE - PERFORMANCE"
+        "Event": "THE FINAL RISE OF SAL PARADISE - PERFORMANCE AT RE IN CAR NATION"
       },
       {
         "Day": "SATURDAY",
         "Time": "7 PM",
         "Event": "SKULL PONY DEL MAR SOUL ON FIRE - EXPERIENTIAL FIRE ART"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "6 AM - 9 AM",
+        "Event": "CHURCH OF MUSIC"
       },
       {
         "Day": "SUNDAY",
@@ -685,13 +735,28 @@
     ]
   },
   {
-    "Name": "Reading Room",
+    "Name": "Salt & Desert Reading Room",
     "Events": [
+      {
+        "Day": "FRIDAY",
+        "Time": "9AM - 6PM",
+        "Event": "SEA & DESERT READING ROOM - CURATED TEXTS"
+      },
       {
         "Day": "FRIDAY",
         "Time": "4 PM",
         "Event": "THE SALTON SEA RETURN TO ELDORADO PROJECT - TALK"
-      }
+      },
+      {
+        "Day": "SATURDAY",
+        "Time": "9AM - 6PM",
+        "Event": "SEA & DESERT READING ROOM - CURATED TEXTS"
+      },
+      {
+        "Day": "SUNDAY",
+        "Time": "9AM - 6PM",
+        "Event": "SEA & DESERT READING ROOM - CURATED TEXTS"
+      },
     ]
   }
 ]
