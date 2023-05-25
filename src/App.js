@@ -6,7 +6,7 @@ import MapWrapper from "./Map";
 import List from "./List";
 
 import locationsJSON from "./locations.json";
-import scheduleJSON from "./schedule.json";
+// import scheduleJSON from "./schedule.json";
 
 const markerColors = {
   "Parking": "#FA7B5D",
@@ -74,7 +74,7 @@ function App() {
         <List
           markerColors={markerColors}
           locations={locationsJSON}
-          schedule={scheduleJSON}
+          schedule={null}
           selectedMarker={selectedMarker}
           setSelectedMarker={setSelectedMarker}
           setViewState={setViewState}

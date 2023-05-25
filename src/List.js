@@ -66,8 +66,8 @@ function List({
       "Community Hub",
       "Venue",
       "Gallery",
-      "Parking",
-      "Bathroom",
+      // "Parking",
+      // "Bathroom",
       "Art Installation",
     ];
     const groupBy = (key, array) =>
@@ -83,26 +83,29 @@ function List({
     const newGroups = order.map((o) => {
       const values = grouped[o] || [];
 
-      values.forEach((v) => {
-        const events = schedule.find((s) => s.Name === v.Name);
-        if (events) v.Events = events.Events;
-        else v.Events = null;
-      });
+      // values.forEach((v) => {
+      //   const events = schedule.find((s) => s.Name === v.Name);
+      //   if (events) v.Events = events.Events;
+      //   else v.Events = null;
+      // });
 
       return { key: o, values };
     });
     setListGroups(newGroups);
-  }, [locations, schedule]);
+  }, [locations, /*schedule*/]);
 
-  return (
-    <ListWrapper>
-      <div style={{ marginBottom: "20px" }}>
+  /*
+    <div style={{ marginBottom: "20px" }}>
         <Dot style={{ background: "#555" }} /> Has a scheduled event(s)
         <div>
           <Dot style={{ border: "3px solid #555" }} /> Open, no schedule
         </div>
         <div style={{ fontStyle: "italic", color: "#888", marginTop: "10px", fontSize: "14px" }}>click on a venue to see events</div>
       </div>
+  */
+
+  return (
+    <ListWrapper>
       {listGroups.map((group, i) => {
         return (
           <Group key={`group${i}`}>

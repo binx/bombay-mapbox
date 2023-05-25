@@ -1,14 +1,5 @@
 [
   {
-    "Name": "BBB Parking Lot",
-    "Category": "Parking",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.354693,
-    "Long": -115.733349
-  },
-  {
     "Name": "The Ski Inn",
     "Category": "Local Business",
     "Openness": "Public",
@@ -340,69 +331,6 @@
     "Artist Website": "http://machineinspiredart.com/",
     "Lat": 33.34942099,
     "Long": -115.7310088
-  },
-  {
-    "Name": "2nd & F",
-    "Category": "Bathroom",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.35356539,
-    "Long": -115.7289293
-  },
-  {
-    "Name": "Alley between 2nd and 3rd, & F",
-    "Category": "Bathroom",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.35286514,
-    "Long": -115.7286351
-  },
-  {
-    "Name": "5th & A",
-    "Category": "Bathroom",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.34891329,
-    "Long": -115.7335133
-  },
-  {
-    "Name": "5th & E",
-    "Category": "Bathroom",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.34895785,
-    "Long": -115.7298303
-  },
-  {
-    "Name": "5th & F",
-    "Category": "Bathroom",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.34894842,
-    "Long": -115.72847
-  },
-  {
-    "Name": "5th & Aisle of Palms",
-    "Category": "Bathroom",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.34895314,
-    "Long": -115.725569
-  },
-  {
-    "Name": "Beach",
-    "Category": "Bathroom",
-    "Openness": "Public",
-    "Artist(s)": "",
-    "Artist Website": "",
-    "Lat": 33.34742554,
-    "Long": -115.7295255
   },
   {
     "Name": "The Bombay Beach Estates",
