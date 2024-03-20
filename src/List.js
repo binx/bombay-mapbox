@@ -32,7 +32,8 @@ const ListItem = styled.div`
     background-color: rgba(0, 0, 0, 0.05);
   }
   font-weight: ${(props) => (props.selectedMaker ? "bold" : "inherit")};
-  margin-top: ${(props) => (props.selectedMaker && props.hasEvents ? "20px" : "0")};
+  margin-top: ${(props) =>
+    props.selectedMaker && props.hasEvents ? "20px" : "0"};
 `;
 const CloseX = styled.div`
   font-size: 36px;
@@ -62,11 +63,12 @@ function List({
 
   useEffect(() => {
     const order = [
+      "Parking",
       "Local Business",
       "Community Hub",
       "Venue",
       "Gallery",
-      // "Parking",
+
       // "Bathroom",
       "Art Installation",
     ];
@@ -92,7 +94,7 @@ function List({
       return { key: o, values };
     });
     setListGroups(newGroups);
-  }, [locations, /*schedule*/]);
+  }, [locations /*schedule*/]);
 
   /*
     <div style={{ marginBottom: "20px" }}>
@@ -147,9 +149,9 @@ function List({
                     }}
                   />
                   <span style={{ flex: 1 }}>{l["Name"]}</span>
-                  { selectedMarker && selectedMarker["Name"] === l["Name"] && selectedMarker["Events"] && (
-                    <CloseX>×</CloseX>
-                  )}
+                  {selectedMarker &&
+                    selectedMarker["Name"] === l["Name"] &&
+                    selectedMarker["Events"] && <CloseX>×</CloseX>}
                 </ListItem>
                 {selectedMarker &&
                   selectedMarker["Name"] === l["Name"] &&
