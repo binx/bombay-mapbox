@@ -63,13 +63,13 @@
     "Long": -115.726117
   },
   {
-    "Name": "BBYC - Yacht Club",
+    "Name": "BBYC - Bombay Beach Yacht Club",
     "Category": "Venue",
     "Openness": "Public",
     "Artist(s)": "Colin & Brandon",
     "Artist Website": "",
-    "Lat": 33.3531109,
-    "Long": -115.7265341
+    "Lat": 33.353123,
+    "Long": -115.7290333
   },
   {
     "Name": "Blauhaus",
@@ -142,6 +142,15 @@
     "Artist Website": "",
     "Lat": 33.3489844,
     "Long": -115.7279718
+  },
+  {
+    "Name": "The Kraken",
+    "Category": "Venue",
+    "Openness": "Public",
+    "Artist(s)": "",
+    "Artist Website": "",
+    "Lat": 33.3529096,
+    "Long": -115.7290668
   },
   {
     "Name": "Drakkar Noir",
@@ -313,15 +322,6 @@
     "Artist Website": "",
     "Lat": 33.3517046,
     "Long": -115.7260541
-  },
-  {
-    "Name": "Arbitrary Permanence",
-    "Category": "Art Installation",
-    "Openness": "Private unless invited, Public 12-3",
-    "Artist(s)": "Sydney Gravelle",
-    "Artist Website": "https://www.sydsexhibit.com/",
-    "Lat": 33.34914,
-    "Long": -115.72597
   },
   {
     "Name": "The Art of Decay",
@@ -657,13 +657,22 @@
     "Long": -115.7299041
   },
   {
+    "Name": "Pareidolia",
+    "Category": "Art Installation",
+    "Openness": "Private",
+    "Artist(s)": "Jeff Frost",
+    "Artist Website": "https://www.frostjeff.com/",
+    "Lat": 33.35352096,
+    "Long": -115.7311872
+  },
+  {
     "Name": "Our Lady of Lithium Valley, Pray For Us",
     "Category": "Art Installation",
     "Openness": "Public",
     "Artist(s)": "Stephanie Cate",
     "Artist Website": "",
-    "Lat": 33.34733572,
-    "Long": -115.7317306
+    "Lat": 33.34702742,
+    "Long": -115.7319472
   },
   {
     "Name": "Park Place",
